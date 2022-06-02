@@ -1406,7 +1406,7 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color: #ffffff;
     text-decoration: none
 }
 
@@ -1435,7 +1435,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
+    display: flex;
     max-width: 100%;
     height: auto
 }
@@ -1593,7 +1593,7 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 30px
+    font-size: 26px
 }
 
 .h2,
@@ -5143,7 +5143,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -5261,6 +5261,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-toggle {
         display: none
     }
+    
 }
 
 .navbar-nav {
@@ -7814,7 +7815,8 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    margin-top: 80px;
 }
 
 .pull-right {
